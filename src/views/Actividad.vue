@@ -17,42 +17,39 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Cuentas contabless',
+      tema: 'Cultivo de palma de aceite: previvero, vivero y siembra.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos esenciales sobre las cuentas contables, registros contables, estados de ingresos y egresos y algunos aspectos fundamentales.',
+        '<b> Objetivo:</b> conocer e identificar el establecimiento de previvero, vivero y siembra de la palma de cera.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto: '¿Qué entiende por contabilidad?',
+          texto:
+            'De acuerdo con su ciclo de vida y la duración de su etapa productiva, ¿cómo se clasifica técnicamente el cultivo de la palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Es el arte de registrar únicamente las salidas de dinero o efectivo para evitar que la empresa entre en quiebra técnica o en crisis financiera.',
+              texto: 'Cultivo transitorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Es un sistema de información que permite identificar, medir, clasificar y registrar las operaciones económicas para facilitar la toma de decisiones y el control.',
+              texto: 'Cultivo perenne.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Es una herramienta opcional y proporconal que se utiliza únicamente para el cálculo y pago de impuestos ante la administración tributaria.',
+              texto: 'Cultivo bianual.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Es el proceso de archivar facturas y documentos contables en orden cronológico para cumplir con las visitas de auditoría de la DIAN.',
+              texto: 'Cultivo de ciclo corto.',
               esCorrecta: false,
             },
           ],
@@ -62,50 +59,67 @@ export default {
         {
           id: 2,
           texto:
-            'Según el Decreto 2649 de 1993, el principio o norma técnica que establece que los hechos económicos deben ser reconocidos y registrados en el período en el cual ocurren, y no solamente cuando se recibe o paga el efectivo o su equivalente, se denomina:',
+            '¿Cuál es la razón principal por la cual la palma de aceite se considera la especie de planta oleaginosa más importante a nivel mundial?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Principio de Prudencia.', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Porque su rendimiento de extracción de aceite por hectárea es superior al de cualquier otra especie de planta oleaginosa.',
+              esCorrecta: true,
+            },
             {
               id: 'b',
-              texto: 'Norma de Valuación o Medición.',
+              texto:
+                'Porque es la única especie vegetal capaz de producir aceite apto para el consumo humano y procesos industriales.',
               esCorrecta: false,
             },
-            { id: 'c', texto: 'Principio de Continuidad.', esCorrecta: false },
-            { id: 'd', texto: 'Principio de Causación.', esCorrecta: true },
+            {
+              id: 'c',
+              texto:
+                'Porque requiere una menor inversión económica en comparación con otros cultivos de semillas oleaginosas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque es la planta más antigua utilizada por el hombre para la obtención de grasas vegetales y lubricantes.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 3,
-          texto: '¿Qué entiende por Plan Único de Cuentas (PUC)?',
+          texto:
+            '¿Cuál es el rango de altitud sobre el nivel del mar (msnm) recomendado para el desarrollo óptimo y la máxima productividad de la palma de aceite?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Es un catálogo libre donde cada contador público asigna los números y nombres de las cuentas según su preferencia personal o institucional.',
+                'Entre los 1.500 y 2.500 msnm: Ya que las temperaturas bajas de montaña favorecen la concentración de ácidos grasos en el fruto',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Es un listado de los precios de venta de los productos o artículos y servicios que ofrece una empresa al mercado para generar mayores ingresos.',
-              esCorrecta: false,
+                'Entre los 0 y 500 msnm: Debido a que requiere condiciones de clima cálido y alta radiación solar, las cuales disminuyen a mayores alturas.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Es una relación ordenada y clasificada de las cuentas que permite la uniformidad en el registro de las operaciones económicas, buscando transparencia y claridad.',
-              esCorrecta: true,
+                'Por encima de los 3.000 msnm: Porque es una planta rústica que necesita periodos de heladas para estimular la floración.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Es un software contable automático que realiza el pago de impuestos sin necesidad de intervención humana.',
+                'Exclusivamente a los 1.000 msnm: Puesto que necesita una presión atmosférica exacta para que los estomas de las hojas realicen la fotosíntesis.',
               esCorrecta: false,
             },
           ],
@@ -115,32 +129,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Por qué es fundamental que la contabilidad se rija por principios o normas técnicas?',
+            '¿De qué factores depende principalmente la variación en el tamaño de la semilla de la palma de aceite?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Para que cada empresa pueda diseñar sus propios códigos y fórmulas según su conveniencia financiera.',
+                'Del método utilizado para la extracción del mesocarpio aceitoso del fruto.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para garantizar que la información sea uniforme, comparable y transparente para todos los usuarios interesados.',
-              esCorrecta: true,
+                'Del número de almendras que contiene la nuez, pudiendo llegar hasta tres.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Porque es un requisito secundario que solo aplica cuando la empresa decide solicitar un préstamo bancario.',
-              esCorrecta: false,
+                'Del grosor de la cáscara (endocarpio) y del tamaño de la almendra.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Con el único fin de que los libros contables se vean organizados estéticamente ante una auditoría externa.',
+                'Del peso aproximado de la nuez, el cual debe ser estrictamente de 2 gramos.',
               esCorrecta: false,
             },
           ],
@@ -150,32 +164,28 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cómo se define el concepto de "Empresa" desde una perspectiva económica y contable?',
+            '¿Cuál es el tiempo estimado que tarda el proceso de germinación de la semilla de palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Es un grupo de personas o grupos de interés que se reúne exclusivamente para realizar actividades recreativas sin fines de lucro.',
+              texto: 'De 15 a 30 días.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Es una organización dedicada a actividades industriales, mercantiles o de prestación de servicios con el fin de obtener un beneficio económico.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'Es un edificio o estructura física donde se guardan mercancías, artículos o productos desarrollados para protegerlas del clima y otrs factores externos que puedan afectar su conservación.',
+              texto: 'Exactamente 6 meses.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Entre 60 y 90 días.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto:
-                'Es cualquier contrato firmado de manera física o vitual en plataformas electrónicas como SECOP I o II, entre dos personas naturales o jurídicas para prestarse un favor personal.',
+              texto: 'Más de un año.',
               esCorrecta: false,
             },
           ],
@@ -185,32 +195,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué se entiende por "Activo" dentro de la estructura financiera de una organización?',
+            '¿Por qué es fundamental realizar una adecuada clasificación de las semillas de palma de aceite antes de la siembra?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Son todas las obligaciones y deudas que la empresa ha contraído con terceros para poder operar un actividad económica, en el marco de la razón social.',
+                'Para determinar el precio de venta en el mercado nacional e internacional según el tamaño de la almendra; lo cual, contribuye a incremento de los ingresos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Es el aporte inicial realizado por los socios o propietarios al momento de constituir legalmente la empresa, a través de los cuales, realizarán alistamiento e inicio de actividades.',
-              esCorrecta: false,
+                'Para asegurar que se cumplan los requisitos de siembra al permitir un manejo específico o descartar semillas con plagas y enfermedades.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Es un recurso controlado por la entidad como resultado de sucesos pasados, del cual se espera obtener beneficios económicos futuros.',
-              esCorrecta: true,
+                'Para acelerar el proceso de germinación y reducir el tiempo de crecimiento de la radícula a menos de 60 días y de esta manera, promover el crecimiento de la empresa.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Representa de manera única y exclusiva el dinero en efectivo que la empresa u organización tiene guardado en sus cajas de seguridad.',
+                'Para identificar cuántas almendras contiene cada cuesco y predecir así la producción futura de aceite, con análisis de tiempos y movimientos, reduciendo los desperdicios.',
               esCorrecta: false,
             },
           ],
@@ -220,33 +230,33 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cómo se define el "Pasivo" dentro de la estructura financiera de una empresa?',
+            '¿Cuál es el objetivo principal que debe cumplir un vivero en los proyectos de palma de aceite?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Representa los aportes en dinero o en especie realizados por los dueños o socios para organización iniciar la operación de la actividad económica principal.',
+                'Garantizar que las palmas produzcan frutos de gran tamaño y consistencia, únicamente después de la primera década de siembra en campo o cultivo.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Es una obligación presente de la entidad, surgida a raíz de sucesos pasados, al vencimiento de la cual se espera desprenderse de recursos.',
-              esCorrecta: true,
+                'Sustituir la fase de crecimiento en campo o sitio para que la planta alcance su madurez total pertinente antes de ser trasplantada definitivamente al lote.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Son los bienes y derechos de propiedad de la empresa que tienen la capacidad de generar beneficios y riqueza en el futuro, en un periodo de cinco años.',
+                'Reducir los costos y gastos de mantenimiento mediante el uso de plántulas que no requieran cuidados especiales durante los primeros años de vida de la planta.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Se refiere exclusivamente al valor de las ventas que la empresa espera realizar durante el próximo año fiscal, las cuales, fueron proyectadas desde la planeación estratégica.',
-              esCorrecta: false,
+                'Producir palmas resistentes que puedan expresar de forma temprana su potencial de producción y características deseables en el campo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
@@ -255,32 +265,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Qué se entiende por "Patrimonio" en el contexto de los estados financieros de una empresa?',
+            '¿Cuál es la principal razón por la que la palma de aceite supera en importancia a otras especies oleaginosas en el mercado global?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Es el conjunto de bienes y derechos que la empresa posee para su funcionamiento diario.',
+                'La sencillez de su proceso en cultivo y cosecha mecanizado, que facilite su recolección y tratamiento.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Representa el valor total de las ventas y servicios prestados por la entidad durante un año.',
+                'Su capacidad de adaptación a climas templados y fríos para realizar diferentes procesos industriales.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Es la parte residual de los activos de la entidad, una vez deducidos todos sus pasivos.',
+                'Su mayor rendimiento de extracción de aceite por unidad de superficie (hectárea).',
               esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Se refiere únicamente al dinero en efectivo que los socios prometieron aportar pero que aún no han entregado.',
+                'Que es la única planta que produce aceite para consumo industrial, mecanizado y fertilizado.',
               esCorrecta: false,
             },
           ],
@@ -290,32 +300,32 @@ export default {
         {
           id: 9,
           texto:
-            '¿Qué son las "Cuentas Nominales" o de resultado y cuál es su principal característica?',
+            '¿Cuál de las siguientes afirmaciones describe mejor la importancia de los factores climáticos (temperatura, humedad, precipitación y brillo solar) en el establecimiento de un cultivo de palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Son cuentas o rubros permanentes que representan los bienes, deudas y el capital de la empresa, y su saldo se traslada de un año a otro.',
+                'Son variables secundarias que pueden ajustarse mediante tecnología agrícola si el terreno es apto.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Son cuentas que solo se utilizan para registrar los aportes de los socios o propietarios al momento de crear la empresa legalmente ante la Cámara de Comercio.',
-              esCorrecta: false,
+                'Son elementos decisivos que determinan el desempeño del cultivo y no pueden ser alterados por el ser humano.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Son aquellas que registran los ingresos, gastos y costos de la entidad, y se cierran al final de cada ejercicio contable para determinar la utilidad o pérdida.',
-              esCorrecta: true,
+                'Son factores que solo deben evaluarse después de haber seleccionado la semilla y el tipo de fertilizante.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Son los registros que se llevan únicamente de forma extracontable y extemporánea para controlar los activos que no pertenecen a la empresa.',
+                'Son condiciones opcionales cuya medición depende exclusivamente de la ubicación geográfica de la zona.',
               esCorrecta: false,
             },
           ],
@@ -325,32 +335,32 @@ export default {
         {
           id: 10,
           texto:
-            '¿Cómo se clasifican las "Cuentas Nominales" o de resultado dentro del sistema contable?',
+            'Para que el análisis de suelo sea correcto, se deben identificar áreas con condiciones parecidas llamadas "unidades de manejo agronómico". ¿Para qué se hace esto principalmente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Se clasifican en Ingresos, Gastos y Costos (de ventas y de producción).',
-              esCorrecta: true,
+                'Para saber en qué parte del terreno se debe construir la casa del administrador.',
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Se clasifican en Activos, Pasivos y Patrimonio, que reflejan la situación financiera y real de una empresa.',
+                'Para decidir qué color de herramientas se van a comprar para la cosecha.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Se clasifican en Cuentas de Orden Deudoras y Cuentas de Orden Acreedoras.',
-              esCorrecta: false,
+                'Para separar el terreno en zonas similares y sacar de cada una las submuestras de suelo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Se clasifican únicamente en Cuentas de Control y Cuentas de Detalle, dependiendo del tipo, tamaño y sector de la empresa.',
+                'Para medir únicamente la sombra que dan los árboles más altos del predio.',
               esCorrecta: false,
             },
           ],
@@ -360,32 +370,32 @@ export default {
         {
           id: 11,
           texto:
-            '¿Cuál es la diferencia principal entre un "Deudor" y un "Acreedor" en el contexto contable?',
+            'El diseño de la plantación es la actividad principal para organizar la logística del cultivo. ¿Por qué es tan importante realizar un apropiado diseño desde el principio?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Un deudor es quien debe dinero a la empresa, mientras que un acreedor es la persona o entidad a quien la empresa le debe dinero.',
+                'Porque de este diseño depende cómo se implementará y manejará el cultivo durante sus 25 años de producción.',
               esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Un deudor es el dueño de la empresa y el acreedor es el banco que le otorga los préstamos personales para brindar solución a una contingencia.',
+                'Porque un buen diseño permite cambiar la ubicación de las palmas cada año si el clima no es favorable.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Los deudores son siempre empleados de la organización, mientras que los acreedores son únicamente los clientes que compran de contado.',
+                'Porque el diseño sirve únicamente para decidir el color de los uniformes de los trabajadores de la plantación.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'No existe diferencia técnica, ambos términos se utilizan indistintamente para referirse a los socios de la compañía, lo que intesa son su participación determinada como aporte.',
+                'Porque si el diseño es bonito, la palma producirá aceite de diferentes colores de manera natural.',
               esCorrecta: false,
             },
           ],
@@ -395,32 +405,32 @@ export default {
         {
           id: 12,
           texto:
-            '¿En qué consiste la “Partida Doble” en el registro de las operaciones contables?',
+            '¿Cuál es la primera actividad que debe realizarse antes de usar equipos de aireación o escarificación?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Es un sistema que consiste en registrar dos veces la misma transacción en diferentes libros para evitar que la información se pierda.',
+                'Aplicar fertilizantes químicos para cambiar la textura del suelo de forma inmediata.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Es la técnica especializada de anotar únicamente las deudas que la empresa tiene con dos o más bancos al mismo tiempo, que se encuentren en la misma ciudad.',
-              esCorrecta: false,
+                'Eliminar o disminuir la altura de las malezas para que los equipos puedan entrar fácilmente.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Es el método que establece que en cada operación debe haber, como mínimo, un elemento deudor (Debe) y uno acreedor (Haber) que sumen valores iguales.',
-              esCorrecta: true,
+                'Inundar el terreno con agua para que las capas endurecidas se ablanden solas.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Se refiere a la obligación de tener dos contadores distintos revisando la misma cuenta para evitar errores humanos y realizar mayor seguimiento y control a cada registro contable.',
+                'Sembrar las plántulas de palma para ver si el suelo realmente necesita ser preparado.',
               esCorrecta: false,
             },
           ],
@@ -430,12 +440,20 @@ export default {
         {
           id: 13,
           texto:
-            'En contabilidad, un gasto se define como la adquisición de bienes o servicios (como maquinaria o locales) que permanecen en la empresa por largo tiempo y que tienen la capacidad de generar beneficios económicos directos en ejercicios futuros.',
+            'La limpieza del terreno para un cultivo de palma de aceite debe realizarse de forma total, incluyendo la tala de árboles en nacederos, ríos y humedales, para garantizar que la maquinaria pueda entrar sin obstáculos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso.', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
@@ -443,12 +461,20 @@ export default {
         {
           id: 14,
           texto:
-            'El balance de comprobación de saldos es un instrumento contable utilizado para verificar que, en la totalidad de los asientos del periodo, se haya respetado el principio de la partida doble, asegurando que la suma de los saldos deudores sea igual a la suma de los saldos acreedores.',
+            'El hoyo para la siembra de una palma de aceite debe tener exactamente el mismo tamaño de la bolsa para asegurar que la palma quede apretada y no entre aire a las raíces',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso.', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
@@ -456,12 +482,20 @@ export default {
         {
           id: 15,
           texto:
-            'En términos contables es necesario encontrar el equilibrio entre las cuentas reales. Para lograrlo se utiliza una fórmula matemática conocida como la ecuación patrimonial.',
+            'La siembra de la palma de aceite debe realizarse preferiblemente al final del periodo de lluvias, cuando la palma tiene una edad de 6 meses en el vivero.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso.', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',

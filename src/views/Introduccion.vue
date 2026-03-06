@@ -8,29 +8,29 @@
           i.fas.fa-info
       h1 Introducción
     
-    .bg-full-width.bg-color-3
-      .px-4.px-md-5.py-4
-        p.mb-5 Las actividades empresariales requieren profesionales con bases muy sólidas en la gestión de la información financiera para garantizar la transparencia y la legalidad en sus operaciones. Por lo anterior, es importante dominar la normativa vigente en Colombia, fundamentada en pilares como el Decreto 2649 de 1993 y la Ley 43 de 1990. El conocimiento riguroso de estos marcos legales es lo que permite a las organizaciones estandarizar sus procesos bajo los principios contables organizacionales, garantizando que la información reportada sea íntegra, veraz y confiable para la toma de decisiones estratégicas. 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3.mb-3.mb-lg-0.order-lg-2
+        figure
+          img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
+      .col-lg-9.order-lg-1
+        .bg-color-1.px-5.py-4
+          p.mb-0 El cultivo de palma de aceite se consolida como un importante motor del desarrollo económico, social y agroindustrial del país. En el año 2024, la producción de aceite de palma en Colombia alcanzó 1,72 millones de toneladas, según datos reportados por la Federación Nacional de Cultivadores de Palma de Aceite (Fedepalma); asimismo, entre enero y mayo de 2025 se registró un crecimiento del 10 % en comparación con el mismo periodo del año anterior, alcanzando un volumen acumulado de 908.000 toneladas. 
+    
 
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La contabilidad es el sistema integral que permite recolectar, clasificar y registrar la realidad económica de una organización para generar informes financieros precisos. Estos reportes son fundamentales para analizar la situación patrimonial y garantizar que la información sea útil y confiable en la toma de decisiones estratégicas. Bajo este marco, el sistema contable se rige por una regulación técnica y legal que aporta orden lógico a los registros; de esta manera, el Estado asegura la vigilancia y el control de las operaciones mercantiles, garantizando que tanto personas naturales como jurídicas den estricto cumplimiento a la normativa vigente.
-        
-        .bg-color-1.mb-5.p-4.p-xl-0
-          .row.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.order-lg-2
-              img.d-none.d-lg-flex(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
-            .col-lg.order-lg-1.px-4
-              p.mb-0 La apropiación de conocimientos contables fomenta una cultura de organización y control en el manejo de los recursos, permitiendo proyectar bases financieras sólidas a mediano y largo plazo. Más allá del cumplimiento técnico, esta formación faculta al individuo para estructurar sus cuentas personales y, fundamentalmente, para liderar iniciativas de emprendimiento con una visión empresarial estratégica y sostenible. 
-        
-
-      
-      
-        
-
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/intro/2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Este comportamiento favorable se atribuye a una mejor distribución de las lluvias en las distintas regiones productoras, al fortalecimiento de las condiciones de nutrición del cultivo y a la implementación de prácticas más eficientes de polinización en materiales híbridos. La palma de aceite constituye, además, la principal fuente de materia prima para la obtención de aceites y grasas destinadas a usos culinarios e industriales. 
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-2.mb-3.mb-lg-0.order-lg-2
+        figure
+          img(src="@/assets/curso/intro/3.svg", data-aos="zoom-in")
+      .col-lg-10.order-lg-1
+        .bg-color-2.px-5.py-4
+          p.mb-0 En este componente formativo se abordan las generalidades del cultivo, la selección del material vegetal, el manejo de vivero y el proceso de siembra, desde el reconocimiento del terreno hasta el establecimiento de las plantas en su sitio definitivo. 
 </template>
 
 <script>

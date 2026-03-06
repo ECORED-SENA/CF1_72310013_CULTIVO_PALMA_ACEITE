@@ -1,1 +1,1 @@
-module.exports = 'Cuentas contables: normatividad y conceptos generales.'
+module.exports = 'Cultivo de palma de aceite: previvero, vivero y siembra.'

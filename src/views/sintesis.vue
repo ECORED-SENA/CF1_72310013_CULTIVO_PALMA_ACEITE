@@ -4,9 +4,9 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p A continuación, se presenta una síntesis de la temática estudiada por el componente formativo.
     .row.justify-content-center
-      .col-lg-12.mb-5.bgs.p-4.brad
+      .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="El mapa conceptual detalla la normatividad y estructura contable en Colombia, fundamentada en los Decretos 2649 y 2650 de 1993 y la Ley 43 de 1990. Organiza el Plan Único de Cuentas (PUC) mediante un catálogo jerárquico por dígitos y explica el funcionamiento de la cuenta T con sus respectivos registros de débitos, créditos y saldos. Finalmente, clasifica las cuentas en reales o de balance (activo, pasivo y patrimonio), nominales y de orden, resaltando que los activos y pasivos se dividen según su liquidez en corrientes y no corrientes.")
+          img(src="@/assets/curso/sintesis.svg", alt="El mapa conceptual sintetiza el componente formativo “Cultivo de palma de aceite: previveros, viveros y siembra”. Inicia con los previveros y viveros, donde se abordan las generalidades del cultivo, incluyendo variedades, rendimiento, condiciones agroecológicas y características de la palma de aceite. Continúa con la selección del material vegetal, que comprende las características de las semillas, su crecimiento y desarrollo, el semillero y la clasificación de las semillas según condiciones, criterios técnicos y proceso de clasificación. Posteriormente, presenta el manejo del vivero, diferenciando previvero y vivero, e incluye actividades como selección y llenado de bolsas, siembra, desarrollo y selección de plantas, control de malezas, plagas y enfermedades, fertilización y riego. Finalmente, integra la etapa de siembra en sitio definitivo, que contempla el diseño de la planeación, la preparación del suelo, el trazado de la plantación, el establecimiento de coberturas vegetales y las actividades de alistamiento en vivero, transporte y trasplante de las plantas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
