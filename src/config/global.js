@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Cultivo de palma de aceite: previvero, vivero y siembra.',
+    Name: 'Cuentas contables: normatividad y conceptos generales.',
     Description:
-      'En este componente formativo el aprendiz conocerá las etapas del ciclo productivo de la palma de aceite, desde el reconocimiento del terreno, diseño de la plantación, diseño de los lotes productivos, la selección técnica del material de siembra y sustratos, hasta la adecuación estratégica del terreno mediante el trazado, drenaje, preparación de suelo y siembra de plantas en sitio definitivo. Dicha siembra comprende realizar un alistamiento en vivero, transporte de las plantas del vivero al lugar definitivo y trasplante.',
+      'Este componente formativo ha sido diseñado para el dominio de la estructura contable en el contexto colombiano. Por medio de su contenido, usted podrá profundizar en el marco normativo vigente, la aplicación ética de los principios contables y el manejo del Plan Único de Cuentas (PUC). También, aborda de manera práctica el esquema de la cuenta T y los criterios fundamentales para la clasificación de las cuentas, elementos esenciales para garantizar procesos de registro precisos y transparentes en cualquier organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Normativa en Colombia',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Decreto 2649 de 1993',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Decreto 2650 de 1993',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Ley 43 de 1990',
+            hash: 't_1_3',
           },
         ],
       },
@@ -50,14 +60,77 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Principios contables',
         desarrolloContenidos: true,
       },
+
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Plan único de cuentas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Estructura del <em>PUC</em>',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Catálogo de cuentas',
+            hash: 't_3_2',
+          },
+        ],
+      },
+
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Esquema de la Cuenta T',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Registro en la Cuenta T',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Saldos en la Cuenta T (débito y crédito)',
+            hash: 't_4_2',
+          },
+        ],
+      },
+
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Clasificación de las cuentas',
+        desarrolloContenidos: true,
+      },
+
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Cuentas reales o de balance',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Conceptos',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Características',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Movimientos',
+            hash: 't_6_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -78,11 +151,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -115,237 +188,137 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aceite de palma',
+      termino: 'Activo',
       significado:
-        'aceite vegetal extraído del mesocarpio del fruto de la palma de aceite, utilizado en la industria alimentaria, cosmética, energética e industrial.',
+        'conjunto de bienes que constituyen una empresa, con el que se consiguen beneficios a presente o futuro, de acuerdo con su utilización.',
     },
     {
-      termino: 'Alistamiento en vivero',
+      termino: 'Costos de operación',
       significado:
-        'conjunto de actividades previas al traslado de las plantas al sitio definitivo, que incluye riego, rotación de bolsas y marcación de las plántulas para facilitar el trasplante.',
+        'valor generado por el total de recursos destinados a la administración, operación y funcionamiento de una organización, empresa o entidad pública.',
     },
     {
-      termino: 'Altura efectiva del suelo',
-      significado:
-        'profundidad útil del suelo que permite el desarrollo adecuado del sistema radicular de la palma de aceite.',
+      termino: 'Costos de producción',
+      significado: 'valor generado por la obtención de un bien.',
     },
     {
-      termino: 'Coberturas vegetales',
+      termino: 'Costos de ventas',
       significado:
-        'plantas asociadas al cultivo de palma que protegen el suelo contra la erosión, conservan la humedad y mejoran la fertilidad.',
+        'es el valor generado por la venta y distribución de un producto o servicio.',
     },
     {
-      termino: 'Crecimiento y desarrollo de la semilla',
+      termino: 'Decreto 2649 de 1993',
       significado:
-        'proceso biológico que inicia con la germinación e incluye la formación de la radícula, plúmula y raíces adventicias hasta el establecimiento de la plántula.',
+        'surge con el objetivo de reglamentar las normas del Código de Comercio en lo relacionado con la contabilidad y para definir los principios y normas contables aceptadas en Colombia.',
     },
     {
-      termino: 'Cuesco (endocarpio)',
+      termino: 'Decreto 2650 de 1993',
       significado:
-        'estructura dura que protege la almendra y el embrión de la semilla de palma de aceite.',
+        'hace referencia al Plan Único de Cuentas (PUC), el cual fue creado para armonizar y unificar el sistema contable de los principales sectores económicos del país.',
     },
     {
-      termino: 'Diseño de la planeación',
+      termino: 'Gastos',
       significado:
-        'proceso de organización y distribución espacial del cultivo que define vías, drenajes, lotes, distancias de siembra y manejo a largo plazo de la plantación.',
+        'se refiere al egreso o salida de dinero para el pago de un bien adquirido o un servicio prestado.',
     },
     {
-      termino: 'Elaeis guineensis',
+      termino: 'Ingresos',
       significado:
-        'nombre científico de la palma de aceite, especie oleaginosa de mayor rendimiento por hectárea a nivel mundial.',
+        'hace referencia a las entradas económicas que percibe una persona natural, jurídica, una empresa, organización, gobierno, entre otros.',
     },
     {
-      termino: 'Endospermo',
+      termino: 'Ley 43 de 1990',
       significado:
-        'tejido interno de la semilla que almacena nutrientes y alimenta al embrión durante la germinación.',
+        'conceptúa de manera clara la profesión contable y la labor del contador público.',
     },
     {
-      termino: 'Fertilización',
+      termino: 'Pasivo',
       significado:
-        'aplicación de nutrientes orgánicos o minerales al suelo o sustrato para suplir las necesidades nutricionales de la palma en vivero o campo.',
+        'recursos que representan los convenios de la entidad económica en desarrollo de los compromisos monetarios para aportar dinero, bienes o servicios.',
     },
     {
-      termino: 'Germinación',
+      termino: 'Patrimonio neto',
       significado:
-        'proceso mediante el cual la semilla desarrolla la radícula y la plúmula, dando origen a una nueva planta.',
+        'valor total de una empresa luego que se descuentan las deudas.',
     },
     {
-      termino: 'Inflorescencia',
+      termino: 'Principio de la consistencia',
       significado:
-        'estructura reproductiva de la palma de aceite que contiene flores masculinas o femeninas y que, tras la fecundación, da origen al racimo de frutos.',
+        'exige uniformidad en la aplicación de los métodos de valuación y en la clasificación de las partidas dentro de los estados financieros a lo largo del tiempo.',
     },
     {
-      termino: 'Labranza',
+      termino: 'Principio de la entidad',
       significado:
-        'conjunto de labores mecánicas realizadas sobre el suelo para mejorar su estructura, aireación y drenaje antes de la siembra.',
+        'establece que la empresa posee una personalidad jurídica independiente de la de sus socios o propietarios.',
     },
     {
-      termino: 'Material vegetal',
+      termino: 'Principio de la unidad monetaria',
       significado:
-        'semillas o plántulas utilizadas para el establecimiento del cultivo, seleccionadas por su calidad genética, física y sanitaria.',
+        'asume de forma estática que el poder adquisitivo de la moneda permanece invariable a través del tiempo.',
     },
     {
-      termino: 'Mesocarpio',
+      termino: 'Principio de enfrentamiento',
       significado:
-        'pulpa fibrosa del fruto de la palma de aceite donde se concentra el aceite comercial.',
+        'busca asociar de manera directa los ingresos generados en un ejercicio con los gastos necesarios para su obtención.',
     },
     {
-      termino: 'Mulch',
+      termino: 'Principio de negocio en marcha',
       significado:
-        'cobertura orgánica utilizada sobre el suelo o las bolsas del vivero para conservar la humedad, reducir la erosión y controlar malezas.',
+        'asume que la empresa operará de manera ininterrumpida por un periodo indeterminado.',
     },
     {
-      termino: 'Plántula',
+      termino: 'Principio del período contable',
       significado:
-        'planta joven que se desarrolla a partir de una semilla germinada durante las etapas de previvero y vivero.',
+        'divide el ciclo de vida de la empresa en periodos contables definidos de manera convencional.',
     },
     {
-      termino: 'Plúmula',
+      termino: 'Principio de costo',
       significado:
-        'estructura embrionaria de la semilla que da origen a las hojas de la planta.',
+        'exige objetividad en el registro de las transacciones, fundamentando cada operación en comprobantes o documentos de soporte válidos.',
     },
     {
-      termino: 'Previvero',
+      termino: 'Principio de conservatismo o criterio prudencial',
       significado:
-        'etapa inicial del cultivo en la que las plántulas se desarrollan en bolsas pequeñas y alta densidad, bajo sombra y condiciones controladas.',
+        'orienta al contador a seleccionar la opción más prudente ante diversas alternativas.',
     },
     {
-      termino: 'Radícula',
+      termino: 'Principio de revelación suficiente',
       significado:
-        'parte embrionaria de la semilla que origina la raíz principal de la planta.',
-    },
-    {
-      termino: 'Riego',
-      significado:
-        'suministro controlado de agua para satisfacer las necesidades hídricas de la palma durante las etapas de vivero y establecimiento en campo.',
-    },
-    {
-      termino: 'Selección en vivero',
-      significado:
-        'proceso periódico de evaluación y descarte de plántulas que presentan anormalidades, baja calidad o problemas sanitarios.',
-    },
-    {
-      termino: 'Semillero',
-      significado:
-        'área destinada a la siembra y manejo inicial de semillas germinadas antes de su traslado al previvero o vivero.',
-    },
-    {
-      termino: 'Siembra en sitio definitivo',
-      significado:
-        'traslado y establecimiento de las plantas provenientes del vivero en el terreno de producción, bajo condiciones adecuadas de suelo y clima.',
-    },
-    {
-      termino: 'Sistema de siembra en tresbolillo',
-      significado:
-        'método de distribución de plantas en forma triangular que optimiza el uso del espacio, la luz solar y el desarrollo radicular.',
-    },
-    {
-      termino: 'Sustrato',
-      significado:
-        'material que llena las bolsas del vivero y permite el anclaje, nutrición y desarrollo de las raíces de la plántula.',
-    },
-    {
-      termino: 'Trazado de la plantación',
-      significado:
-        'proceso de marcación del terreno para definir la ubicación exacta de cada planta según el sistema de siembra y las distancias establecidas.',
-    },
-    {
-      termino: 'Variedades de palma de aceite',
-      significado:
-        'tipos genéticos de la especie Elaeis guineensis (Dura, Pisífera y Tenera) que se diferencian por el grosor del cuesco, la cantidad de pulpa y el rendimiento en aceite.',
-    },
-    {
-      termino: 'Vivero',
-      significado:
-        'etapa posterior al previvero donde las plántulas continúan su desarrollo en bolsas grandes, sin sombra y a baja densidad, hasta su traslado al campo.',
+        'habla de ajustar los estados financieros a razón de los cambios en el poder adquisitivo de la moneda.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Bustillo, A. (2014). Manejo de insectos plagas de la palma de aceite, con énfasis en control biológico.',
+        'Castro, O. (13 de septiembre de 2011). Método de la partida doble. Contabilidad-Conta.',
       link:
-        'https://repositorio.fedepalma.org/bitstream/handle/123456789/107659/Guia%20enfermedades%20y%20plagas%2022.pdf?sequence=11',
+        'http://contabilidad-conta.blogspot.com/2011/09/metodo-de-la-partida-doble.html',
     },
     {
       referencia:
-        'CENIPALMA, SENA, SAC y FONADE. (2002). Selección y descarte de plantas anormales de palma de aceite en viveros.',
-      link: 'https://repositorio.fedepalma.org/handle/123456789/84193',
-    },
-    {
-      referencia:
-        'CIRAD. (2008). Germinated oil palm seed: Recommendations for prenursery and nursery management.',
+        'Congreso de Colombia. (13 de diciembre de 1990). Ley 43 de 1990. Por la cual se adiciona la Ley 145 de 1960, reglamentaria de la profesión de Contador Público y se dictan otras disposiciones. Ministerio de Educación Nacional.',
       link:
-        'https://www.palmelit.com/en/content/download/4353/32854/version/4/file/Booklet-of-recommandations-for-prenursery-and-nursery-management-oil-palm-seeds-CIRAD.pdf',
+        'http://www.mineducacion.gov.co/1621/articles-104548_archivo_pdf.pdf',
     },
     {
       referencia:
-        'Galeano Balaguera, P. (2025). Colombia alcanzó una producción de 1,7 millones de toneladas de aceite de palma en 2024.',
-      link:
-        'https://www.portafolio.co/negocios/industrias/colombia-alcanzo-una-produccion-de-1-7-millones-de-toneladas-de-aceite-de-palma-en-2024-622610',
+        'Coral, L., y Gudiño, E. (2008). Contabilidad universitaria (6.ª ed.). McGraw-Hill.',
+      link: '',
     },
     {
       referencia:
-        'Fedepalma. (s. f.). La agroindustria de la palma de aceite en Colombia.',
-      link:
-        'https://repositorio.fedepalma.org/bitstream/handle/123456789/109788/Agroindustria%20de%20la%20palma%20de%20aceite%20en%20Colombia.pdf',
+        'Presidencia de la República de Colombia. (29 de diciembre de 1993). Decreto 2650 de 1993. Por el cual se modifica el Plan Único de Cuentas para los Comerciantes. Sistema Único de Información Normativa (SUIN-Juriscol).',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1772403',
     },
     {
       referencia:
-        'Fedepalma. (2016). Guía de bolsillo para el reconocimiento y manejo de las principales enfermedades e insectos plaga.',
-      link:
-        'https://repositorio.fedepalma.org/bitstream/handle/123456789/107659/Guia%20enfermedades%20y%20plagas%2022.pdf?sequence=11',
+        'Presidencia de la República de Colombia. (29 de diciembre de 1993). Decreto 2649 de 1993. Por el cual se reglamenta la Contabilidad en General y se expiden los principios o normas de contabilidad generalmente aceptados en Colombia. Sistema Jurídico de Bogotá.',
+      link: 'http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=9863',
     },
     {
       referencia:
-        'Grupo Jaremar. (2016). Manual de Buenas Prácticas Agrícolas para la Producción Sostenible de la Palma Aceitera.',
-      link:
-        'https://fhia.org.hn/wp-content/uploads/manual_buenas_practicas.pdf',
-    },
-    {
-      referencia: 'ICA. (2011). Manejo del picudo - Rhynchophorus palmarum L.',
-      link:
-        'https://www.ica.gov.co/getattachment/19e016c0-0d14-4412-af12-03eecfe398f2/Manejo-del-picudo--Rhynchophorus-palmarum-L--%28Cole.aspx',
-    },
-    {
-      referencia: 'ICA. (2014). Resolución 4170 de 2014.',
-      link: 'https://faolex.fao.org/docs/pdf/col144688.pdf',
-    },
-    {
-      referencia:
-        'INIAP. (2017). Guía para facilitar el aprendizaje en el manejo integrado del cultivo de Palma aceitera.',
-      link: 'https://repositorio.iniap.gob.ec/handle/41000/4774',
-    },
-    {
-      referencia:
-        'INIFAB. (2011). Producción de planta en Paquete Tecnológico Palma de Aceite.',
-      link:
-        'https://www.gob.mx/inifap/prensa/inifap-desarrolla-tecnicas-para-producir-palma-de-aceite',
-    },
-    {
-      referencia:
-        'Narváez, J., Chilito, L., & Bastidas, S. (1996). Determinación de la madurez óptima de cosecha.',
-      link: 'https://repositorio.fedepalma.org/handle/123456789/143664',
-    },
-    {
-      referencia:
-        'Ortíz, R. & Fernández, O. (2000). Cultivo de la palma aceitera.',
-      link: 'https://books.google.com.co/books?id=xZkO8yiPgf0C',
-    },
-    {
-      referencia:
-        'Prada, F., & Romero, M. (2012). Muestreo y análisis de racimos en el cultivo de palma de aceite.',
-      link: 'https://repositorio.fedepalma.org/handle/123456789/107697',
-    },
-    {
-      referencia:
-        'Rodríguez T., D. K. (2025). Producción de aceite de palma en Colombia crece 10% entre enero y mayo de 2025.',
-      link:
-        'https://www.portafolio.co/economia/agro/produccion-de-aceite-de-palma-en-colombia-crece-10-a-mayo-de-2025-633174',
-    },
-    {
-      referencia: 'TECHNOSERVE. (2009). Manual técnico de palma africana.',
-      link: 'https://studylib.es/doc/5470137/manual-tecnico-de-palma-africana',
+        'Presidencia de la República de Colombia. (15 de julio de 2010b). Decreto 2555 de 2010. Por el cual se recogen y reexpiden las normas en materia del sector financiero, asegurador y del mercado de valores y se dictan otras disposiciones. Sistema Jurídico de Bogotá.',
+      link: 'http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=40032',
     },
   ],
   creditos: [
