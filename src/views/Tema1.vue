@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <b>Cultivo de la palma de aceite</b>. La palma de aceite (Elaeis guineensis), reconocida como la oleaginosa de mayor rendimiento por hectárea, requiere un manejo técnico adecuado desde sus primeras etapas para garantizar plantaciones productivas y de larga vida útil. En este proceso, los previveros y viveros son fundamentales, ya que permiten la germinación y el desarrollo inicial de plántulas fuertes y uniformes antes de su establecimiento en campo definitivo.
+        p.mb-0 <b>Cultivo de la palma de aceite</b>. La palma de aceite (<em>Elaeis guineensis</em>), reconocida como la oleaginosa de mayor rendimiento por hectárea, requiere un manejo técnico adecuado desde sus primeras etapas para garantizar plantaciones productivas y de larga vida útil. En este proceso, los previveros y viveros son fundamentales, ya que permiten la germinación y el desarrollo inicial de plántulas fuertes y uniformes antes de su establecimiento en campo definitivo.
     
     .bg-full-width.bg-color-3
       .px-5.mb-5
@@ -34,15 +34,15 @@
               .brbr.mb-3
                 p <b>Nombre científico:</b> <em>Elaeis guineensis</em>
               .brbr.mb-3
-                p <b>Origen</b> Golfo de Guinea en África.
+                p <b>Origen:</b> Golfo de Guinea en África.
               .brbr.mb-3
-                p <b>Clima</b> Cálido.
+                p <b>Clima:</b> Cálido.
               .brbr.mb-3
-                p <b>Tipo de cultivo</b> Perenne.
+                p <b>Tipo de cultivo:</b> Perenne.
               .brbr.mb-3
-                p <b>Promedio de vida útil</b> Entre 24 y 25 años.
-              p <b>Propósito</b> Planta oleaginosa que se cultiva para extracción de aceite. Se comercializa para uso culinario, industrial y generación de energía alternativa, 
-      
+                p <b>Promedio de vida útil:</b> Entre 24 y 25 años.
+              p <b>Propósito:</b> Planta oleaginosa que se cultiva para extracción de aceite. Se comercializa para uso culinario, industrial y generación de energía alternativa, 
+    
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
@@ -81,8 +81,9 @@
                 img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
     
           h3.mb-4.text-center Tenera
-          p.mb-0.text-center Cuesco delgado, mayor pulpa. Mayor rendimiento en aceite.
-          p.mb-0.text-center Ternera se obtiene del cruzamiento de dura y pisífera y se emplea comercialmente.
+          p.mb-0.text-center Cuesco delgado, mayor pulpa. 
+          p.mb-0.text-center Mayor rendimiento en aceite.
+          p.mb-0.text-center Tenera se obtiene del cruzamiento de dura y pisífera y se emplea comercialmente.
     
     p.mb-5 La especie de palma de aceite presenta tres variedades: Dura, Pisífera y Tenera. De estas, la variedad Tenera es la utilizada comercialmente para la extracción de aceite, ya que se obtiene del cruzamiento entre las variedades Dura y Pisífera y combina características que favorecen un mayor rendimiento productivo.
 
@@ -153,7 +154,7 @@
                 //- Contenedor del círculo centrado
                 .bg-color-6.tarjeta.d-flex.justify-content-center.align-items-center.mb-4(style="width: 50px; height: 50px; border-radius: 50%;")
                   h3.mb-0 B
-                p.text-center La temperatura óptima para su desarrollo debe esta entre 25 a 28ºC.
+                p.text-center La temperatura óptima para su desarrollo debe estar entre 25 y 28 ºC.
               .bg-color-white.tarjeta.p-4.h-100.box-shadow.d-flex.flex-column.align-items-center
                 img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop' style="max-width: 115px").mb-3
                 //- Contenedor del círculo centrado
@@ -165,7 +166,7 @@
                 //- Contenedor del círculo centrado
                 .bg-color-6.tarjeta.d-flex.justify-content-center.align-items-center.mb-4(style="width: 50px; height: 50px; border-radius: 50%;")
                   h3.mb-0 D
-                p.text-center Las precipitaciones óptimas deben estar 1800 - 2200 mm al año, aproximadamente 150 mm al mes.
+                p.text-center Las precipitaciones óptimas deben estar entre 1800 y 2200 mm al año, aproximadamente 150 mm al mes.
               .bg-color-white.tarjeta.p-4.h-100.box-shadow.d-flex.flex-column.align-items-center
                 img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop' style="max-width: 115px").mb-3
                 //- Contenedor del círculo centrado
@@ -225,14 +226,14 @@
                 img(src='@/assets/curso/tema1/18.png', alt='Imagen de acompañamiento')
             .col-lg-6.mb-4.mb-md-0.order-lg-1
               h4 Inflorescencia
-              p.mb-0 Es un espádice formado por un pedúnculo y un raquis central ramificado. Estas se producen en la axila de cada una de las hojas. La planta es monoica, es decir, que posee flores tanto femeninas como masculinas, pero requieren el transporte de polen de una planta a otra para su fecundación, por lo cual, es alógama porque su polinización es cruzada. Una vez fecundada la inflorescencia femenina da origen al racimo.
+              p.mb-0 Es un espádice formado por un pedúnculo y un raquis central ramificado. Estas se producen en la axila de cada una de las hojas. La planta es monoica, es decir, que posee flores tanto femeninas como masculinas, pero requiere el transporte de polen de una planta a otra para su fecundación, por lo cual es alógama porque su polinización es cruzada. Una vez fecundada, la inflorescencia femenina da origen al racimo.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
                 img(src='@/assets/curso/tema1/19.png', alt='Imagen de acompañamiento')
             .col-lg-6.mb-4.mb-md-0.order-lg-1
               h4 Fruto
-              p.mb-0 Es una drupa de forma redonda a ovoide, los cuales conforman el racimo que puede contener en promedio entre 1200 y 1500 frutos. Su longitud puede variar de 3 a 6 cm, con un peso aproximado de 5 a 12 gramos. Está formado por: el exocarpio que tiene la piel lisa y brillante, el mesocarpio que es la pulpa o tejido fibroso que contiene las células con aceite, el endocarpio que es una nuez o semilla compuesta por un cuesco lignificado y el endospermo que es una almendra aceitosa o palmiste (TECHNOSERVER, 2009).
+              p.mb-0 Es una drupa de forma redonda a ovoide, los cuales conforman el racimo que puede contener en promedio entre 1200 y 1500 frutos. Su longitud puede variar de 3 a 6 cm, con un peso aproximado de 5 a 12 gramos. Está formado por el exocarpio, que tiene la piel lisa y brillante, el mesocarpio, que es la pulpa o tejido fibroso que contiene las células con aceite, el endocarpio, que es una nuez o semilla compuesta por un cuesco lignificado y el endospermo, que es una almendra aceitosa o palmiste (TECHNOSERVER, 2009).
     
     separador
     
@@ -259,7 +260,7 @@
                     img(src='@/assets/curso/tema1/20.png', alt='alt')
                 .col-lg
                   .p-4
-                    p.mb-0(data-aos="fade-up") La semilla de la palma de aceite es la nuez que queda después de la extracción del mesocarpio aceitoso. Consta de un cuesco o endocarpio y de una, dos o tres almendras; pero comúnmente contiene solo una almendra. La semilla puede tener un tamaño en 2 cm de largo y un peso aproximado de 2 gr. Sin embargo, el tamaño varía mucho y depende del grosor de la cáscara como del tamaño de la almendra.
+                    p.mb-0(data-aos="fade-up") La semilla de la palma de aceite es la nuez que queda después de la extracción del mesocarpio aceitoso. Consta de un cuesco o endocarpio y de una, dos o tres almendras; pero comúnmente contiene solo una almendra. La semilla puede tener un tamaño de 2 cm de largo y un peso aproximado de 2 gr. Sin embargo, el tamaño varía mucho y depende del grosor de la cáscara como del tamaño de la almendra.
 
         p.mb-5 Las características de las semillas constituyen un aspecto fundamental para el establecimiento exitoso del cultivo y las estudiaremos a continuación.
 
@@ -272,7 +273,7 @@
                 img(src='@/assets/curso/tema1/21.png', alt='Imagen de acompañamiento')
             .col-lg-6.mb-4.mb-md-0.order-lg-1
               h4 Cuesco o endocarpio
-              p.mb-0 Es la estructura que protege el embrión, los poros germinales, el ovario tricarpelar y la almendra. Dentro del cuesco están las almendras o endospermo donde se encuentra el embrión. Y en él se encuentran los órganos que son importantes en la germinación de la semilla como el cotiledón. Cabe anotar, que del embrión nace la plúmula y la radícula de la semilla.
+              p.mb-0 Es la estructura que protege el embrión, los poros germinales, el ovario tricarpelar y la almendra. Dentro del cuesco están las almendras o endospermo, donde se encuentra el embrión. Y en él se encuentran los órganos que son importantes en la germinación de la semilla, como el cotiledón. Cabe anotar que del embrión nacen la plúmula y la radícula de la semilla.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
@@ -293,7 +294,7 @@
                 img(src='@/assets/curso/tema1/24.png', alt='Imagen de acompañamiento')
             .col-lg-6.mb-4.mb-md-0.order-lg-1
               h4 Radícula
-              p.mb-0 Es la estructura más larga y blanca que tiene la semilla la cual da origen a la raíz, puede presentar curvaturas. Alcanza una longitud de 2.5 a 3.5 cm.
+              p.mb-0 Es la estructura más larga y blanca que tiene la semilla, la cual da origen a la raíz; puede presentar curvaturas. Alcanza una longitud de 2.5 a 3.5 cm.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
@@ -319,7 +320,7 @@
             .col-lg
               .p-4
                 p(data-aos="fade-up") El proceso de germinación de la semilla tarda entre 60 y 90 días (2-3 meses). La plúmula no sale hasta que la radícula no haya alcanzado un centímetro de largo; estas deben ser de color blanco cremoso brillante. Las raíces adventicias se producen por encima de la unión de la radícula con la plúmula y dan origen a raíces secundarias antes de que haya salido la primera hoja. 
-                p La radícula continúa creciendo por más o menos 6 meses y alcanza casi 15 centímetros de largo y de ahí en adelante se desarrollan numerosas raíces primarias.
+                p La radícula continúa creciendo por más o menos 6 meses y alcanza casi 15 centímetros de largo y, de ahí en adelante, se desarrollan numerosas raíces primarias.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -367,7 +368,7 @@
                 img(src='@/assets/curso/tema1/29.png', alt='Imagen de acompañamiento')
             .col-lg-6.mb-4.mb-md-0.order-lg-1
               h4 Sitio de trabajo
-              p La clasificación de semillas se debe hacer en un sitio fresco, a temperaturas inferiores de 35ºC y nunca bajo exposición solar o a la lluvia.  Si el sitio de trabajo está muy despejado se hace un cobertizo para brindar sombra suficiente para recibir, desempacar y manejar la semilla. 
+              p La clasificación de semillas se debe hacer en un sitio fresco, a temperaturas inferiores de 35 ºC y nunca bajo exposición solar o a la lluvia.  Si el sitio de trabajo está muy despejado, se hace un cobertizo para brindar sombra suficiente para recibir, desempacar y manejar la semilla. 
               p.mb-0 Para facilitar el trabajo del operario, el proceso se realiza sobre una superficie plana (mesa) y amplia de acuerdo con la cantidad de semillas a clasificar.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -402,7 +403,7 @@
               h4 Seguridad e higiene
               p Para manipular las semillas, se deben llevar a cabo acciones para evitar la contaminación de éstas y garantizar la protección de la persona que realiza la labor. 
 
-              p.mb-0 De acuerdo con lo anterior, se debe hacer uso de la indumentaria necesaria como cofia o gorra para el cubrimiento de la cabeza; usar bata antifluido limpia, pantalón de tela resistente (jean o dril), y calzado que proteja de la humedad (botas plásticas preferiblemente), usar guantes de examinación (vinilo, látex o nitrilo), en caso de no hacerlo, se procura una rigurosa limpieza de manos del operario. Igualmente se recomienda desinfectar las áreas de las superficies y los recipientes donde se colocará la semilla clasificada.
+              p.mb-0 De acuerdo con lo anterior, se debe hacer uso de la indumentaria necesaria, como cofia o gorra para el cubrimiento de la cabeza; usar bata antifluido limpia, pantalón de tela resistente (jean o dril) y calzado que proteja de la humedad (botas plásticas preferiblemente); usar guantes de examinación (vinilo, látex o nitrilo). En caso de no hacerlo, se procura una rigurosa limpieza de manos del operario. Igualmente, se recomienda desinfectar las áreas de las superficies y los recipientes donde se colocará la semilla clasificada.
 
     div.bg-color-7.tarjeta.p-3.d-inline-block.mb-5
       h3.mb-0 Criterios técnicos de clasificación
@@ -428,12 +429,12 @@
                     | Presencia de mohos de cualquier color, lo cual es un indicio del ataque de hongos.
                   li.mb-3.d-flex
                     i.fas.fa-circle-check.bg-color.bg-color-8
-                    | Presencia de moteados o tejido necrosado; con puntos castaños en la plúmula o radícula, usualmente se manifiesta, por una fitotoxicidad.
+                    | Presencia de moteados o tejido necrosado; con puntos castaños en la plúmula o radícula, usualmente se manifiesta por una fitotoxicidad.
                   li.mb-3.d-flex
                     i.fas.fa-circle-check.bg-color.bg-color-8
                     | Presencia de tejidos blandos, que indica el ataque provocado por bacterias, que generalmente se manifiesta en una pudrición del tejido comprometido.
           div(titulo="Daños mecánicos")
-            p.ms-5 Se presentan como resultado de la manipulación inadecuada de las semillas durante el proceso de germinación, embalaje, manejo previo, y durante la siembra en el vivero. Las principales características de este tipo de daño son:
+            p.ms-5 Se presentan como resultado de la manipulación inadecuada de las semillas durante el proceso de germinación, embalaje, manejo previo y durante la siembra en el vivero. Las principales características de este tipo de daño son:
             .row.mb-5.justify-content-center.align-items-center
               .col-lg-5.mb-3.mb-lg-0.order-lg-2
                 figure
@@ -471,7 +472,7 @@
                     | Retorcimiento de plúmulas o radícula. 
                   li.mb-3.d-flex
                     i.fas.fa-circle-check.bg-color.bg-color-8
-                    | Plúmulas o radículas demasiado desarrolladas, es un indicativo de anormalidad.
+                    | Plúmulas o radículas demasiado desarrolladas; es un indicativo de anormalidad.
                   li.mb-3.d-flex
                     i.fas.fa-circle-check.bg-color.bg-color-8
                     | Semillas que no han diferenciado plúmula y radícula perfectamente. 
@@ -575,14 +576,14 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0
             h4 Selección del lugar del vivero
-            p Con el fin de lograr una mejor producción y el bajo costo de producción del material vegetal, la selección del mejor lugar para la instalación del previvero y vivero se convierten en parámetro fundamental que evitará sobrecostos y promoverá mayores beneficios futuros. Por lo tanto, se requieren las siguientes características del lugar:
+            p Con el fin de lograr una mejor producción y el bajo costo de producción del material vegetal, la selección del mejor lugar para la instalación del previvero y vivero se convierte en parámetro fundamental que evitará sobrecostos y promoverá mayores beneficios futuros. Por lo tanto, se requieren las siguientes características del lugar:
             ul.lista-ul--color.ms-3
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-8
-                | Buen acceso por caminos y cerca a los sitios de plantación. 
+                | Buen acceso por caminos y cerca de los sitios de plantación. 
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-8
-                | Protección contra fuego, inundación, vientos, depredadores y de caída de árboles dentro del vivero. 
+                | Protección contra fuego, inundación, vientos, depredadores y caída de árboles dentro del vivero. 
               li.mb-3.d-flex
                 i.fas.fa-circle-check.bg-color-8
                 | Facilidad de obtener agua limpia sin sedimentos y contaminación, y con buenas propiedades físicas y químicas. 
@@ -605,7 +606,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0
             h4 Sustrato
-            p El sustrato para llenar las bolsas debe obtenerse de la capa superior del terreno (0 a 20 cm), debe tener condiciones físicas y químicas excelente, para facilitar el drenaje y permitir un crecimiento óptimo de las plantas. Si no está suficientemente disgregado, se debe acondicionar hasta que permita ser manipulado fácilmente, sin pulverizarlo o tamizarlo, ya que esta destruye su estructura. Si eventualmente el suelo es pobre en nutrientes, al determinar su fertilidad, se le puede agregar fertilizante compuesto N-P-K en una cantidad de 2 gramos por bolsa (1825 kg de peso), y algún fertilizante orgánico (compost), nunca superando el 10% del total de la bolsa y asegurando mezcla homogénea. La mezcla con arena no es recomendable, a excepción de que el suelo disponible sea muy pesado y masivo. Los montículos de suelo deben cubrirse con plásticos o algún otro material para prevenir pérdidas de suelo y nutrientes por lavado. No se recomienda llenar bolsas con suelo húmedo.
+            p El sustrato para llenar las bolsas debe obtenerse de la capa superior del terreno (0 a 20 cm); debe tener condiciones físicas y químicas excelentes, para facilitar el drenaje y permitir un crecimiento óptimo de las plantas. Si no está suficientemente disgregado, se debe acondicionar hasta que permita ser manipulado fácilmente, sin pulverizarlo o tamizarlo, ya que esto destruye su estructura. Si eventualmente el suelo es pobre en nutrientes, al determinar su fertilidad, se le puede agregar fertilizante compuesto N-P-K en una cantidad de 2 gramos por bolsa (1825 kg de peso) y algún fertilizante orgánico (compost), nunca superando el 10% del total de la bolsa y asegurando mezcla homogénea. La mezcla con arena no es recomendable, a excepción de que el suelo disponible sea muy pesado y masivo. Los montículos de suelo deben cubrirse con plásticos o algún otro material para prevenir pérdidas de suelo y nutrientes por lavado. No se recomienda llenar bolsas con suelo húmedo.
           .col-lg-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/48.png', alt='Imagen de acompañamiento')
@@ -707,9 +708,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/60.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El vivero puede establecerse a partir de semillas germinadas o de plántulas provenientes del previvero. En el vivero, las palmitas permanecen de 6 a 8 meses si estas proceden del previvero; o de 10 a 12 meses si se siembran a partir de semillas germinadas, para luego llevarlas a campo definitivo. Durante este periodo, la palma pierde su aspecto juvenil y empieza a tener hojas palmeadas verdaderas. El vivero se maneja en bolsas plásticas, sin sombra y una baja densidad por área. (CIRAD, 2008).
+        p.mb-0 El vivero puede establecerse a partir de semillas germinadas o de plántulas provenientes del previvero. En el vivero, las palmitas permanecen de 6 a 8 meses si estas proceden del previvero, o de 10 a 12 meses si se siembran a partir de semillas germinadas, para luego llevarlas a campo definitivo. Durante este periodo, la palma pierde su aspecto juvenil y empieza a tener hojas palmeadas verdaderas. El vivero se maneja en bolsas plásticas, sin sombra y con una baja densidad por área. (CIRAD, 2008).
     
-    p.mb-5 Para el establecimiento del vivero, abordaremos los detalles pertinentes para realizar la selección y llenado de bolsas, la siembra de plantas, el desarrollo de las plantas en vivero, realizar selección en vivero, controlar la maleza, plagas y enfermedades, fertilización, y riego.
+    p.mb-5 Para el establecimiento del vivero, abordaremos los detalles pertinentes para realizar la selección y llenado de bolsas, la siembra de plantas, el desarrollo de las plantas en vivero, realizar selección en vivero, controlar la maleza, plagas y enfermedades, fertilización y riego.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-9")
       div(titulo="Selección y llenado de bolsas")
@@ -718,7 +719,7 @@
             figure
               img(src="@/assets/curso/tema1/61.png")
           .col-lg-7.order-lg-1
-            p El tamaño recomendado de las bolsas para vivero es de 40 cm de ancho por 50 cm de alto, calibre 2, con perforaciones en la parte inferior para asegurar un buen drenaje y suficiente resistencia para permanecer al menos 12 meses en el vivero. En el llenado, se coloca una capa de material inerte en el fondo para anclaje, luego el sustrato dejando espacio para el doblado de la bolsa y la aplicación de mulch. Se recomienda regar las bolsas antes del trasplante para que el suelo se asiente y completar el llenado si es necesario.
+            p El tamaño recomendado de las bolsas para vivero es de 40 cm de ancho por 50 cm de alto, calibre 2, con perforaciones en la parte inferior para asegurar un buen drenaje y suficiente resistencia para permanecer al menos 12 meses en el vivero. En el llenado, se coloca una capa de material inerte en el fondo para anclaje, luego el sustrato, dejando espacio para el doblado de la bolsa y la aplicación de <em>mulch</em>. Se recomienda regar las bolsas antes del trasplante para que el suelo se asiente y completar el llenado si es necesario.
             p.mb-0 La correcta distribución de las bolsas es fundamental para aprovechar la luz solar y favorecer el crecimiento vertical de las plantas. Se recomienda orientar las líneas en dirección Norte-Sur y organizar las bolsas en disposición triangular, con distancias de 90 cm entre bolsas y 78 cm entre filas, permitiendo establecer aproximadamente 12.500 plántulas por hectárea, incluyendo espacios para caminos, drenajes e irrigación.
       div(titulo="Siembra de las plantas")
         .row.mb-3.justify-content-center.align-items-center.ms-5
@@ -735,7 +736,7 @@
                   | Se extrae suelo del centro de la bolsa del vivero con un palín, paladraga o cilindro, cuyo volumen sea mayor que el adobe o cespedón que trae la bolsa del previvero. 
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-8
-                  | En el fondo del hoyo adicionar 20 gramos de fertilizante a base de fósforo 3 gramos de nematicida; cubrir con una capa de tierra de tal forma que el producto no tenga contacto con las raíces de la planta (INIAP, 2017).
+                  | En el fondo del hoyo, adicionar 20 gramos de fertilizante a base de fósforo y 3 gramos de nematicida; cubrir con una capa de tierra de tal forma que el producto no tenga contacto con las raíces de la planta (INIAP, 2017).
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-8
                   | Se elimina cuidadosamente la bolsa del previvero, evitando la destrucción del cespedón y la ruptura de raíces. 
@@ -749,7 +750,7 @@
                   i.fas.fa-circle-check.bg-color-8
                   | Se aplica riego una vez finalizado el trasplante.
 
-        p.mb-0 A estas bolsas en vivero también se brinda protección mediante el uso de cobertura o <em>mulch</em>, los cuales conservan la humedad del suelo de la bolsa, regulan la temperatura del suelo, evitan la erosión del suelo de la bolsa y reducen la emisión de plantas no deseables.
+        p.mb-0 A estas bolsas en vivero también se les brinda protección mediante el uso de cobertura o <em>mulch</em>, los cuales conservan la humedad del suelo de la bolsa, regulan la temperatura del suelo, evitan la erosión del suelo de la bolsa y reducen la emisión de plantas no deseables.
 
       div(titulo="Desarrollo de las plantas en vivero")
         .row.mb-5.justify-content-center.align-items-center.ms-5
@@ -757,7 +758,7 @@
             figure
               img(src="@/assets/curso/tema1/63.png")
           .col-lg-7.order-lg-1
-            p.mb-0 Después de los 4 meses comienzan a aparecer hojas con hendiduras en el ápice con la que le dan una forma bifurcada de las hojas; cinco o seis meses después de la siembra, comienzan a aparecer hojas separadas en otras secciones denominadas foliolos; en este caso la hoja presenta más de 10 de estos foliolos y entonces se dice que las hojas son pinnadas. Después del trasplante, es decir a los 3 o 4 meses de edad, la base del tallo toma la forma de un cono invertido “bulbo” que da origen a las primeras raíces primarias; dentro de esta estructura se encuentran el meristemo que es el punto de crecimiento vertical de la planta durante toda su vida. Igualmente, después de este tiempo de las raíces primarias, salen otras más delgadas que se llaman raíces secundarias, de las cuales, salen posteriormente otras más delgadas que se denominan terciarias y finalmente las cuaternarias.
+            p.mb-0 Después de los 4 meses, comienzan a aparecer hojas con hendiduras en el ápice, con la que le dan una forma bifurcada a las hojas; cinco o seis meses después de la siembra, comienzan a aparecer hojas separadas en otras secciones denominadas foliolos; en este caso, la hoja presenta más de 10 de estos foliolos y entonces se dice que las hojas son pinnadas. Después del trasplante, es decir, a los 3 o 4 meses de edad, la base del tallo toma la forma de un cono invertido “bulbo” que da origen a las primeras raíces primarias; dentro de esta estructura se encuentra el meristemo, que es el punto de crecimiento vertical de la planta durante toda su vida. Igualmente, después de este tiempo de las raíces primarias, salen otras más delgadas que se llaman raíces secundarias, de las cuales, salen posteriormente otras más delgadas que se denominan terciarias y, finalmente, las cuaternarias.
       div(titulo="Selección en vivero")
         .row.mb-5.justify-content-center.align-items-center.ms-5
           .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -785,7 +786,7 @@
                 li.d-flex 
                   .lista-ol--cuadro__vineta
                     span.text-black 2
-                  | Preferir el uso de bio-plaguicidas. 
+                  | Preferir el uso de bioplaguicidas. 
                 li.d-flex 
                   .lista-ol--cuadro__vineta
                     span.text-black 3
@@ -795,7 +796,7 @@
                     span.text-black 4
                   | Usar controladores biológicos.
 
-        p.ms-5 Las enfermedades más frecuentes que se presentan en el vivero son: pudrición común de la flecha/arqueo foliar, mancha por <em>Curvularia</em>, mancha y tizón por <em>Helminthosporium</em>, pudrición por <em>Rhizoctonia</em>, antracnosis por <em>Colletotrichum</em>, y la pudrición por <em>Phytophthora</em>.
+        p.ms-5 Las enfermedades más frecuentes que se presentan en el vivero son: pudrición común de la flecha/arqueo foliar, mancha por <em>Curvularia</em>, mancha y tizón por <em>Helminthosporium</em>, pudrición por <em>Rhizoctonia</em>, antracnosis por <em>Colletotrichum</em> y la pudrición por <em>Phytophthora</em>.
 
         .row.mb-3.justify-content-center.align-items-center.ms-5
           .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -803,7 +804,7 @@
               img(src="@/assets/curso/tema1/66.png")
           .col-lg-7.order-lg-1
             .bg-color-2.p-3
-              p Para el control de estas enfermedades se debe de realizar las siguientes actividades:
+              p Para el control de estas enfermedades se deben realizar las siguientes actividades:
               ul.lista-ul--color.ms-3
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-8
@@ -816,25 +817,25 @@
                   | Eliminar las malezas presentes. 
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-8
-                  | Si es necesario eliminar plantas enfermas.
+                  | Si es necesario, eliminar plantas enfermas.
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-8
-                  | Realizar aplicaciones de fungicidas preferiblemente biológicos. 
+                  | Realizar aplicaciones de fungicidas, preferiblemente biológicos. 
       div(titulo="Fertilización")
         .row.mb-5.justify-content-center.align-items-center.ms-5
           .col-lg-5.mb-3.mb-lg-0.order-lg-2
             figure
               img(src="@/assets/curso/tema1/67.png")
           .col-lg-7.order-lg-1
-            p.mb-0 El programa de fertilización para un vivero debe diseñarse según el lugar donde se establece y la fertilidad del suelo utilizado en el llenado de bolsas. Generalmente, los programas de fertilización se fundamentan en la aplicación de elementos primarios (nitrógeno, fósforo, potasio) y la aplicación de elementos secundarios (calcio, azufre y magnesio), u oligoelementos, dependiendo de la deficiencia de estos. Por consiguiente, se recomienda realizar un análisis al suelo que su utilizará para el llenado de bolsas. En la actualidad se está fomentando la utilización de abonos orgánicos tipo Bocashi o caldos biológicos, para implementar los cultivos orgánicos. El fertilizante debe ser aplicado al suelo de la bolsa, en una franja ancha alrededor de la plántula, evitando el contacto con el follaje o con la raíz, para evitar quemaduras.  
+            p.mb-0 El programa de fertilización para un vivero debe diseñarse según el lugar donde se establece y la fertilidad del suelo utilizado en el llenado de bolsas. Generalmente, los programas de fertilización se fundamentan en la aplicación de elementos primarios (nitrógeno, fósforo, potasio) y la aplicación de elementos secundarios (calcio, azufre y magnesio) u oligoelementos, dependiendo de la deficiencia de estos. Por consiguiente, se recomienda realizar un análisis al suelo que se utilizará para el llenado de bolsas. En la actualidad, se está fomentando la utilización de abonos orgánicos tipo bocashi o caldos biológicos para implementar los cultivos orgánicos. El fertilizante debe ser aplicado al suelo de la bolsa, en una franja ancha alrededor de la plántula, evitando el contacto con el follaje o con la raíz, para evitar quemaduras.  
       div(titulo="Riego")
         .row.mb-5.justify-content-center.align-items-center.ms-5
           .col-lg-5.mb-3.mb-lg-0.order-lg-2
             figure
               img(src="@/assets/curso/tema1/68.png")
           .col-lg-7.order-lg-1
-            p El suministro adecuado y oportuno de agua, es uno de los aspectos más críticos en un vivero de palma de aceite, por lo tanto, es necesario implementar un sistema de riego que satisfaga los requerimientos hídricos del cultivo, para lograr un crecimiento y desarrollo normal del mismo.
-            p.mb-0 El sistema de riego a presión por aspersión es uno de los más utilizados en viveros por su eficiencia, el cual, consiste en suministrar agua sobre la superficie del suelo en forma de lluvia artificial. Uno de los aspectos más importantes en el uso de este sistema, es su diseño y distribución de los aspersores, para garantizar un correcto traslape; comúnmente se distribuyen triangularmente para garantizar una distribución homogénea del agua; además es de fácil operación, proporciona la facilidad de verificar su funcionamiento y efectividad, requiere poca mano de obra y tiene un costo aceptable. 
+            p El suministro adecuado y oportuno de agua es uno de los aspectos más críticos en un vivero de palma de aceite; por lo tanto, es necesario implementar un sistema de riego que satisfaga los requerimientos hídricos del cultivo, para lograr un crecimiento y desarrollo normal del mismo.
+            p.mb-0 El sistema de riego a presión por aspersión es uno de los más utilizados en viveros por su eficiencia, el cual consiste en suministrar agua sobre la superficie del suelo en forma de lluvia artificial. Uno de los aspectos más importantes en el uso de este sistema, es su diseño y distribución de los aspersores para garantizar un correcto traslape; comúnmente se distribuyen triangularmente para garantizar una distribución homogénea del agua. Además es de fácil operación, proporciona la facilidad de verificar su funcionamiento y efectividad, requiere poca mano de obra y tiene un costo aceptable. 
 
 </template>
 
